@@ -13,7 +13,7 @@ A global element size of 1 to 2 mm is ideal for modelling using the Multizone or
 
 * **Loads and Boundary Conditions**
   
-The load applied is of internal pressure of 1 KPa in tabular form. This pressure is applied slowly with 0.1 KPa in each time step. Other than this, standard earth gravity has been applied while one end is fixed as a boundary condition. For better convergence of results, I have used neqit,50[3], which increased the number of iterations per substep. The following image depicts these boundary conditions.
+The load applied is of internal pressure of 1 KPa in tabular form. This pressure is applied slowly with 0.1 KPa in each time step. Other than this, standard earth gravity has been applied while one end is fixed as a boundary condition. For better convergence of results, I have used neqit,50, which increased the number of iterations per substep. The following image depicts these boundary conditions.
 
 ![image](https://github.com/nk-16/Soft-Pneumatic-Bending-Actuator/assets/128499808/7e5ff896-0ebd-49b8-9856-e16fbb237d51) 
 
